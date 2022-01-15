@@ -8,8 +8,11 @@
 }
 
 .gridSquare {
-  background-color: blue;
   width: 6.25%;
   box-sizing: border-box;
   border: red solid 1px;
+}
+
+.gridSquareColored {
+  background-color: blue;
 }
