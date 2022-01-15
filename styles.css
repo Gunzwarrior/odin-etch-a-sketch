@@ -1,0 +1,15 @@
+#container {
+  border: solid 1px black;
+  height: 900px;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.gridSquare {
+  background-color: blue;
+  width: 6.25%;
+  box-sizing: border-box;
+  border: red solid 1px;
+}
