@@ -24,7 +24,11 @@ function resetGrid() {
 };
 
 function colorSquare(e) {
-  e.target.classList.add("gridSquareColored");
+  // e.target.classList.add("gridSquareColored");
+  let rValue = Math.floor(Math.random()*256);
+  let gValue = Math.floor(Math.random()*256);
+  let bValue = Math.floor(Math.random()*256);
+  e.target.style.backgroundColor = `rgb(${rValue}, ${gValue}, ${bValue})`;
 }
 
 function generateGrid(number) {
