@@ -10,9 +10,9 @@
 .gridSquare {
   width: 6.25%;
   box-sizing: border-box;
-  border: red solid 1px;
+  border: grey solid 1px;
 }
 
 .gridSquareColored {
-  background-color: blue;
+  background-color: black;
 }
